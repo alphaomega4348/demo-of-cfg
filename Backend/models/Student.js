@@ -7,13 +7,14 @@ const Student = new Schema(
       type: String,
       required: true,
     },
-    standard: {
+    rollNumber: {
       type: Number,
       required: true,
+      unique: true,
     },
     level: {
       type: String,
-      enum: ["No Record","Fail","Word","Sentence","Paragraph","Story"],
+      enum: ["No Record", "Fail", "Word", "Sentence", "Paragraph", "Story"],
       default: "No Record",
     },
   },

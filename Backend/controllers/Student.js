@@ -5,16 +5,24 @@ const Student = require("../models/Student");
 const createStudent = async (req, res) => {
   try {
     const id = req.params.id;
-    const { name, standard } = req.body;
-    if (!name || !standard) {
+    const { name, rollNumber } = req.body;
+    if (!name || !rollNumber) {
       return res
         .status(400)
         .json({ success: false, error: "Please provide all details" });
     }
-    const student = await Student.create({ name, standard });
-    await ClassRoom.findByIdAndUpdate(id, {
-      $push: { StudentId: student._id },
-    }, { new: true });
+    const alreadyExists = await Student.findOne({ rollNumber });
+    if (alreadyExists) {
+      return res.json({ success: false, error: "Student already exists" });
+    }
+    const student = await Student.create({ name, rollNumber });
+    await ClassRoom.findByIdAndUpdate(
+      id,
+      {
+        $push: { StudentId: student._id },
+      },
+      { new: true }
+    );
     res
       .status(200)
       .json({ success: true, message: "Student created successfully" });
@@ -26,7 +34,7 @@ const createStudent = async (req, res) => {
 
 const getStudents = async (req, res) => {
   try {
-    const students = await Student.find().sort({ standard: 1 });
+    const students = await Student.find().sort({ rollNumber: 1 });
     res.status(200).json({ success: true, students });
   } catch (error) {
     res.status(500).json({ success: false, error: "Internal Server Error!" });

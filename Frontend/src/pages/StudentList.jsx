@@ -43,14 +43,14 @@ export default function StudentList() {
         </nav>
         <table className="table-auto">
           <tr>
-            <th>Standard</th>
+            <th>Roll Number</th>
             <th>Name</th>
             <th>Level</th>
             <th>Test</th>
           </tr>
           {students.map((student, index) => (
             <tr key={index}>
-              <td>{student.standard}</td>
+              <td>{student.rollNumber}</td>
               <td>{student.name}</td>
               <td>{student.level}</td>
               <td>
