@@ -1,11 +1,11 @@
-const { default: mongoose } = require('mongoose')
+const mongoose = require('mongoose')
 const jwt = require('jsonwebtoken')
 const logger = require('../logger/Logger')
 
 const TeacherUser = require('../models/Teacher')
 
 const createToken = (_id) => {
-    return jwt.sign({_id}, process.env.JWT_SECRET, {expiresIn: '5d'})
+    return jwt.sign({_id}, process.env.JWT_SECRET)
 }
 
 const loginTeacher = async (req,res) => {
