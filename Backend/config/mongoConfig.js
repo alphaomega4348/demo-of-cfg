@@ -1,14 +1,15 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
+const logger = require('../logger/Logger')
 
 const connectToDB = () => {
   mongoose
     .connect(process.env.MONGO_URI)
     .then(() => {
-      console.log("DB Connected");
+      logger.info("MongoDB Connected");
     })
     .catch((err) => {
-      console.log(err);
+      logger.error(err);
     });
 };
 
