@@ -9,7 +9,7 @@ const {
   removeStudent,
 } = require("../controllers/Student");
 
-router.post("/createStudent", createStudent);
+router.post("/createStudent/:id", createStudent);
 router.get("/getStudents", getStudents);
 router.get("/getStudentById/:studentId", getStudentById);
 router.put("/updateStudentLevel", updateStudentLevel);

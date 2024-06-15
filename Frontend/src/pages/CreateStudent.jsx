@@ -1,21 +1,22 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const CreateStudent = () => {
+   const {id} = useParams();
   const [name, setName] = useState("");
   const [standard, setStandard] = useState("");
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/api/student/createStudent", {
+      await axios.post(`http://localhost:3000/api/student/createStudent/${id}`, {
         name,
         standard,
       });
       toast.success("Student created successfully");
-      navigate("/studentList");
+      navigate(`/studentList/${id}`);
     } catch (error) {
       toast.error("Error creating student");
       console.log(error)

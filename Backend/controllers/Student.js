@@ -1,20 +1,25 @@
 const logger = require("../logger/Logger");
+const ClassRoom = require("../models/ClassRoom");
 const Student = require("../models/Student");
 
 const createStudent = async (req, res) => {
   try {
+    const id = req.params.id;
     const { name, standard } = req.body;
-    logger.info(name, standard)
     if (!name || !standard) {
       return res
         .status(400)
         .json({ success: false, error: "Please provide all details" });
     }
-    await Student.create({ name, standard });
+    const student = await Student.create({ name, standard });
+    await ClassRoom.findByIdAndUpdate(id, {
+      $push: { StudentId: student._id },
+    }, { new: true });
     res
       .status(200)
       .json({ success: true, message: "Student created successfully" });
   } catch (error) {
+    logger.error("Error creating student: ", error);
     res.status(500).json({ success: false, error: "Internal Server Error!" });
   }
 };

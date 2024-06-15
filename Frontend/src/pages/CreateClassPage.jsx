@@ -1,19 +1,20 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import Card from "../components/Card";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 const CreateClassPage = () => {
-  const [classesName, setClassesName] = useState('');
+  const navigate = useNavigate();
+  const [classesName, setClassesName] = useState("");
   const [classes, setClasses] = useState([]);
-
   const fetchClasses = async () => {
     try {
-      const response = await fetch('http:/api/class/getClasses');
-      if (!response.ok) {
-        throw new Error('Error fetching classes');
-      }
-      const data = await response.json();
+      const { data } = await axios.get(
+        "http://localhost:3000/api/class/getClassRooms"
+      );
+      console.log(data);
       setClasses(data.classes);
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
   useEffect(() => {
@@ -21,72 +22,83 @@ const CreateClassPage = () => {
   }, []);
   const createClass = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/class/createClass', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name: classesName }),
-      });
+      const response = await fetch(
+        "http://localhost:3000/api/class/createClassRoom",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name: classesName }),
+        }
+      );
       if (!response.ok) {
-        throw new Error('Error creating class');
+        throw new Error("Error creating class");
       }
 
       const data = await response.json();
       alert(data.message);
-      setClassesName(''); 
+      setClassesName("");
 
-      setClasses(prevClasses => [...prevClasses, { name: classesName }]);
+      setClasses((prevClasses) => [...prevClasses, { name: classesName }]);
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
 
+  const handleClass = (id) => {
+    navigate(`/studentList/${id}`);
+  };
+
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '100vh',
-      backgroundColor: '#f9eaf7',
-    }}>
-      <h1 style={{ 
-        color: '#6a097d', 
-        fontFamily: 'Arial, sans-serif',
-        fontSize: '32px',
-        fontWeight: 'bold',
-        marginBottom: '20px',
-      }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+        backgroundColor: "#f9eaf7",
+      }}
+    >
+      <h1
+        style={{
+          color: "#6a097d",
+          fontFamily: "Arial, sans-serif",
+          fontSize: "32px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
         Create a Class
       </h1>
-      <input 
-        type="text" 
-        value={classesName} 
-        onChange={(e) => setClassesName(e.target.value)} 
-        placeholder="Class name" 
+      <input
+        type="text"
+        value={classesName}
+        onChange={(e) => setClassesName(e.target.value)}
+        placeholder="Class name"
         style={{
-          width: '300px',
-          padding: '15px',
-          margin: '10px 0',
-          boxSizing: 'border-box',
-          borderRadius: '5px',
-          border: '1px solid #6a097d',
+          width: "300px",
+          padding: "15px",
+          margin: "10px 0",
+          boxSizing: "border-box",
+          borderRadius: "5px",
+          border: "1px solid #6a097d",
         }}
       />
-      <button 
-        onClick={createClass} 
+      <button
+        onClick={createClass}
         style={{
-          backgroundColor: '#6a097d',
-          color: 'white',
-          border: 'none',
-          borderRadius: '20px',
-          padding: '10px 20px',
-          cursor: 'pointer',
-          fontSize: '18px',
-          fontWeight: 'bold',
-          width: '300px',
-          marginBottom: '20px',
+          backgroundColor: "#6a097d",
+          color: "white",
+          border: "none",
+          borderRadius: "20px",
+          padding: "10px 20px",
+          cursor: "pointer",
+          fontSize: "18px",
+          fontWeight: "bold",
+          width: "300px",
+          marginBottom: "20px",
         }}
       >
         Create Class
@@ -94,7 +106,9 @@ const CreateClassPage = () => {
 
       {classes.length > 0 ? (
         classes.map((cls, index) => (
-          <Card key={index} className={cls.name} />
+          <div onClick={() => handleClass(cls._id)}>
+            <Card key={index} className={cls.name} />
+          </div>
         ))
       ) : (
         <p>No classes found</p>

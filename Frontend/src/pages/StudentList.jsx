@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import axios from "axios";
 
-const url = "http://localhost:3000/api/student/getStudents";
-
 export default function StudentList() {
+  const { id } = useParams();
+
   const [students, setStudents] = useState([]);
   useEffect(() => {
-    fetchUsers(url);
+    fetchUsers();
   }, []);
   const navigate = useNavigate();
   const handleChange = (event) => {
@@ -16,12 +16,14 @@ export default function StudentList() {
   };
 
   const handleCreateStudent = () => {
-    navigate("/createStudent");
+    navigate(`/createStudent/${id}`);
   };
-  const fetchUsers = async (url) => {
+  const fetchUsers = async () => {
     try {
-      const { data } = await axios.get(url);
-      setStudents(data.students);
+      const { data } = await axios.get(
+        `http://localhost:3000/api/class/getStudentsFromClassRoom/${id}`
+      );
+      setStudents(data.Students);
     } catch (e) {
       console.error(e);
     }
@@ -55,8 +57,12 @@ export default function StudentList() {
                 <select onChange={handleChange}>
                   <option value="">Select Level</option>
                   <option value={`/test/Story/${student._id}`}>Story</option>
-                  <option value={`/test/Paragraph/${student._id}`}>Paragraph</option>
-                  <option value={`/test/Sentence/${student._id}`}>Sentence</option>
+                  <option value={`/test/Paragraph/${student._id}`}>
+                    Paragraph
+                  </option>
+                  <option value={`/test/Sentence/${student._id}`}>
+                    Sentence
+                  </option>
                   <option value={`/test/Word/${student._id}`}>Word</option>
                 </select>
               </td>

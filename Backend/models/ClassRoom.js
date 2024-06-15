@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
-const Class = new Schema(
+const ClassRoom = new Schema(
   {
     name: {
         type: String,
@@ -15,4 +15,4 @@ const Class = new Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Class", Class);
+module.exports = mongoose.model("ClassRoom", ClassRoom);

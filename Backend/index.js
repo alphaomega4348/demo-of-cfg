@@ -40,7 +40,7 @@ app.get('/metrics', metricsEndpoint);
 app.use('/api/admin', adminRoutes)
 app.use('/api/teacher', teacherRoutes)
 app.use('/api/student', require('./routes/Student'))
-app.use('/api/class', require('./routes/Class'))
+app.use('/api/class', require('./routes/ClassRoom'))
 
 app.listen(process.env.PORT, () => {
   logger.info(`Server started on port ${process.env.PORT}`);

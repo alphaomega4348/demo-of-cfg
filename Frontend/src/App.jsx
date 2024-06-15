@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<CreateClassPage />} />
-          <Route path="/StudentList" element={<StudentList />} />
+          <Route path="/StudentList/:id" element={<StudentList/>} />
           <Route path="/test/:type/:id" element={<Test />} />
-          <Route path="/createStudent" element={<CreateStudent />} />
+          <Route path="/createStudent/:id" element={<CreateStudent/>} />
         </Routes>
       </Router>
       <ToastContainer />
