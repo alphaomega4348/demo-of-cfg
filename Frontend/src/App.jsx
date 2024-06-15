@@ -15,7 +15,7 @@ function App() {
     //     </div>
     //  </Router>
     <>
-    <Test/>
+    <Test />
     </>
 
   );
