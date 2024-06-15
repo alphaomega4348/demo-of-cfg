@@ -1,19 +1,32 @@
 import React, { useState } from "react";
 import "./Table.css";
-import About from "./About";
 import { useNavigate } from "react-router-dom";
 import { createBrowserHistory } from "@remix-run/router";
+import {useEffect} from "react"
+const url="http://localhost:5173/getStudents"
 
 
 
-const data = [
-  { RollNo: 12, Name: "Aysuhi", Level: "1", Test: "yes" },
-  { RollNo: 2, Name: "Sachi", Level: "4", Test: "yes" },
-  { RollNo: 34, Name: "Khushi", Level: "2", Test: "yes" },
-];
+
+
+const fetchUsers= async (url) =>{
+    try{
+        const res = await fetch(url);
+        const data = await res.json();
+    }catch(e){
+        console.error(e)
+    }
+}
+
+
+
 
 export default function Table() {
-  
+    
+    const[students, setStudents] = useState([]);
+    useEffect(() => {
+        fetchUsers(url);
+    }, []); 
     const navigate =  useNavigate();
     const history = createBrowserHistory()
     const handleChange = (event) => {
@@ -25,32 +38,25 @@ export default function Table() {
 
   return (
     <div>
-      <div className="sm:overflow-hidden">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container-fluid">
-            <span className="navbar-brand mb-0 h1">
-              Vowels of the People Association
-            </span>
-            <button type="button" className="btn btn-secondary">
-              Home
-            </button>
-          </div>
-        </nav>
+    <div class="sm:overflow-hidden">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Vowels of the People Association</span>
+        <button type="button" class="btn btn-secondary">Home</button>
+    </div>
+    </nav>
         <table className="table-auto">
-          <thead>
             <tr>
               <th>RollNo</th>
               <th>Name</th>
               <th>Level</th>
               <th>Test</th>
             </tr>
-          </thead>
-          <tbody>
-            {data.map((val, key) => (
-              <tr key={key}>
-                <td>{val.RollNo}</td>
-                <td>{val.Name}</td>
-                <td>{val.Level}</td>
+            {students.map((student, index) => (
+                            <tr key={index}>
+                                <td>{student.RollNo}</td>
+                                <td>{student.Name}</td>
+                                <td>{student.Level}</td>
                 <td>
                   <select onChange={handleChange}>
                     <option value="">Select Level</option>
@@ -61,7 +67,6 @@ export default function Table() {
                 </td>
               </tr>
             ))}
-          </tbody>
         </table>
       </div>
     </div>
