@@ -4,19 +4,19 @@ const CreateClassPage = () => {
   const [classesName, setClassesName] = useState('');
   const [classes, setClasses] = useState([]);
 
-  useEffect(() => {
-    const fetchClasses = async () => {
-      try {
-        const response = await fetch('/api/class/getClasses');
-        if (!response.ok) {
-          throw new Error('Error fetching classes');
-        }
-        const data = await response.json();
-        setClasses(data.classes);
-      } catch (error) {
-        console.error('Error:', error);
+  const fetchClasses = async () => {
+    try {
+      const response = await fetch('http:/api/class/getClasses');
+      if (!response.ok) {
+        throw new Error('Error fetching classes');
       }
-    };
+      const data = await response.json();
+      setClasses(data.classes);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+  useEffect(() => {
     fetchClasses();
   }, []);
   const createClass = async () => {
