@@ -52,8 +52,6 @@ const removeStudent = async (req, res) => {
     }
 }
 
-
-
 const updateStudentSubjectLevel = async (req, res) => {
     try {
         const { studentId,subject,level } = req.body;
@@ -77,4 +75,4 @@ const updateStudentSubjectLevel = async (req, res) => {
     }
 }
 
-moduke.exports = { createStudent ,getStudentById, getStudents, removeStudent, updateStudentSubjectLevel};
+module.exports = { createStudent ,getStudentById, getStudents, removeStudent, updateStudentSubjectLevel};
