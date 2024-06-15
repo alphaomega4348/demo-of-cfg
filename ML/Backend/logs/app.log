@@ -1,0 +1,34 @@
+2024-06-16 03:13:31,813 WARNING  * Debugger is active!
+2024-06-16 03:13:31,814 INFO  * Debugger PIN: 181-844-350
+2024-06-16 03:57:24,708 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-16 03:57:24,709 INFO [33mPress CTRL+C to quit[0m
+2024-06-16 03:57:24,732 INFO  * Restarting with watchdog (inotify)
+2024-06-16 03:57:33,305 WARNING  * Debugger is active!
+2024-06-16 03:57:33,307 INFO  * Debugger PIN: 129-165-642
+2024-06-16 04:07:27,324 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-16 04:07:27,324 INFO [33mPress CTRL+C to quit[0m
+2024-06-16 04:07:27,341 INFO  * Restarting with watchdog (inotify)
+2024-06-16 04:07:33,048 WARNING  * Debugger is active!
+2024-06-16 04:07:33,049 INFO  * Debugger PIN: 519-636-862
+2024-06-16 04:13:14,020 INFO Audio file saved to uploads/recording.wav
+2024-06-16 04:13:24,933 INFO Audio file removed from uploads/recording.wav
+2024-06-16 04:13:24,934 INFO Transcription result:  Hi, I am Ironman.
+2024-06-16 04:13:26,861 INFO Comparison result: Pass
+2024-06-16 04:13:26,861 INFO Target: Hi, I am Iron Man, Prediction:  Hi, I am Ironman., Comparison Result: Pass
+2024-06-16 04:13:26,864 INFO 127.0.0.1 - - [16/Jun/2024 04:13:26] "POST /transcribe HTTP/1.1" 200 -
+2024-06-16 04:13:26,880 INFO 127.0.0.1 - - [16/Jun/2024 04:13:26] "[33mOPTIONS /api/student/updateStudentLevel HTTP/1.1[0m" 404 -
+2024-06-16 04:14:02,998 INFO Audio file saved to uploads/recording.wav
+2024-06-16 04:14:55,186 INFO Audio file removed from uploads/recording.wav
+2024-06-16 04:14:55,187 INFO Transcription result: mittel
+2024-06-16 04:14:55,897 INFO Comparison result: Fail
+2024-06-16 04:14:55,898 INFO Target: Hi, I am Iron Man, Prediction: mittel, Comparison Result: Fail
+2024-06-16 04:14:55,901 INFO 127.0.0.1 - - [16/Jun/2024 04:14:55] "POST /transcribe HTTP/1.1" 200 -
+2024-06-16 04:15:17,305 INFO Audio file saved to uploads/recording.wav
+2024-06-16 04:15:25,695 INFO Audio file removed from uploads/recording.wav
+2024-06-16 04:15:25,696 INFO Transcription result:  Hi, I am Iron Man.
+2024-06-16 04:15:26,411 INFO Comparison result: Pass
+2024-06-16 04:15:26,412 INFO Target: Hi, I am Iron Man, Prediction:  Hi, I am Iron Man., Comparison Result: Pass
+2024-06-16 04:15:26,414 INFO 127.0.0.1 - - [16/Jun/2024 04:15:26] "POST /transcribe HTTP/1.1" 200 -
+2024-06-16 04:15:26,425 INFO 127.0.0.1 - - [16/Jun/2024 04:15:26] "[33mOPTIONS /api/student/updateStudentLevel HTTP/1.1[0m" 404 -

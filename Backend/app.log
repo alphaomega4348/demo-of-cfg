@@ -1,0 +1,583 @@
+2024-06-15T13:37:36.419Z info: Server started on port 9000
+2024-06-15T13:38:08.020Z info: Server started on port 9000
+2024-06-15T13:38:14.242Z info: Server started on port 9000
+2024-06-15T13:38:16.889Z info: Server started on port 9000
+2024-06-15T13:38:19.269Z info: Server started on port 9000
+2024-06-15T13:38:23.398Z info: Server started on port 9000
+2024-06-15T13:38:23.451Z info: DB Connected
+2024-06-15T13:38:27.968Z info: Server started on port 9000
+2024-06-15T13:38:27.985Z info: DB Connected
+2024-06-15T13:38:32.971Z info: Server started on port 9000
+2024-06-15T13:38:32.996Z info: DB Connected
+2024-06-15T13:38:52.583Z info: Server started on port 9000
+2024-06-15T13:38:52.616Z info: DB Connected
+2024-06-15T13:38:54.604Z info: Server started on port 9000
+2024-06-15T13:38:54.658Z info: DB Connected
+2024-06-15T13:38:58.094Z info: Server started on port 9000
+2024-06-15T13:38:58.109Z info: DB Connected
+2024-06-15T13:39:01.447Z info: Server started on port 9000
+2024-06-15T13:39:01.498Z info: DB Connected
+2024-06-15T13:39:01.499Z info: Connected to Redis...
+2024-06-15T13:39:06.725Z info: Server started on port 9000
+2024-06-15T13:39:06.740Z info: DB Connected
+2024-06-15T13:39:06.741Z info: Connected to Redis...
+2024-06-15T13:39:26.174Z info: Server started on port 9000
+2024-06-15T13:39:26.193Z info: MongoDB Connected
+2024-06-15T13:39:26.194Z info: Connected to Redis...
+2024-06-15T13:40:23.980Z info: Server started on port 9000
+2024-06-15T13:40:24.022Z info: MongoDB Connected
+2024-06-15T13:40:24.023Z info: Connected to Redis...
+2024-06-15T13:40:36.856Z info: Server started on port 9000
+2024-06-15T13:40:36.878Z info: MongoDB Connected
+2024-06-15T13:40:36.881Z info: Connected to Redis...
+2024-06-15T13:40:54.068Z info: Server started on port 9000
+2024-06-15T13:40:54.089Z info: MongoDB Connected
+2024-06-15T13:40:54.091Z info: Connected to Redis...
+2024-06-15T13:40:58.132Z info: Server started on port 9000
+2024-06-15T13:40:58.158Z info: MongoDB Connected
+2024-06-15T13:40:58.159Z info: Connected to Redis...
+2024-06-15T13:41:03.232Z info: Server started on port 9000
+2024-06-15T13:41:03.255Z info: MongoDB Connected
+2024-06-15T13:41:03.257Z info: Connected to Redis...
+2024-06-15T13:41:04.934Z info: Server started on port 9000
+2024-06-15T13:41:04.958Z info: MongoDB Connected
+2024-06-15T13:41:04.960Z info: Connected to Redis...
+2024-06-15T13:41:06.140Z info: Server started on port 9000
+2024-06-15T13:41:06.183Z info: MongoDB Connected
+2024-06-15T13:41:06.185Z info: Connected to Redis...
+2024-06-15T13:41:07.836Z info: Server started on port 9000
+2024-06-15T13:41:07.897Z info: MongoDB Connected
+2024-06-15T13:41:07.898Z info: Connected to Redis...
+2024-06-15T13:41:10.532Z info: Server started on port 9000
+2024-06-15T13:41:10.586Z info: MongoDB Connected
+2024-06-15T13:41:10.587Z info: Connected to Redis...
+2024-06-15T13:41:29.469Z info: Server started on port 9000
+2024-06-15T13:41:29.514Z info: MongoDB Connected
+2024-06-15T13:41:29.517Z info: Connected to Redis...
+2024-06-15T13:41:32.549Z info: Server started on port 9000
+2024-06-15T13:41:32.601Z info: MongoDB Connected
+2024-06-15T13:41:32.602Z info: Connected to Redis...
+2024-06-15T13:41:35.099Z info: Server started on port 9000
+2024-06-15T13:41:35.157Z info: MongoDB Connected
+2024-06-15T13:41:35.158Z info: Connected to Redis...
+2024-06-15T13:41:36.376Z info: Server started on port 9000
+2024-06-15T13:41:36.389Z info: MongoDB Connected
+2024-06-15T13:41:36.391Z info: Connected to Redis...
+2024-06-15T13:41:43.618Z info: Server started on port 9000
+2024-06-15T13:41:43.633Z info: MongoDB Connected
+2024-06-15T13:41:43.634Z info: Connected to Redis...
+2024-06-15T13:42:09.682Z info: Server started on port 9000
+2024-06-15T13:42:09.709Z info: MongoDB Connected
+2024-06-15T13:42:09.711Z info: Connected to Redis...
+2024-06-15T13:42:13.934Z info: Server started on port 9000
+2024-06-15T13:42:13.954Z info: MongoDB Connected
+2024-06-15T13:42:13.955Z info: Connected to Redis...
+2024-06-15T13:42:15.079Z info: Server started on port 9000
+2024-06-15T13:42:15.099Z info: MongoDB Connected
+2024-06-15T13:42:15.101Z info: Connected to Redis...
+2024-06-15T13:42:16.790Z info: Server started on port 9000
+2024-06-15T13:42:16.809Z info: MongoDB Connected
+2024-06-15T13:42:16.811Z info: Connected to Redis...
+2024-06-15T13:42:20.265Z info: Server started on port 9000
+2024-06-15T13:42:20.318Z info: MongoDB Connected
+2024-06-15T13:42:20.325Z info: Connected to Redis...
+2024-06-15T13:42:21.482Z info: Server started on port 9000
+2024-06-15T13:42:21.549Z info: MongoDB Connected
+2024-06-15T13:42:21.550Z info: Connected to Redis...
+2024-06-15T13:42:24.862Z info: Server started on port 9000
+2024-06-15T13:42:24.880Z info: MongoDB Connected
+2024-06-15T13:42:24.882Z info: Connected to Redis...
+2024-06-15T13:42:32.742Z info: Server started on port 9000
+2024-06-15T13:42:32.766Z info: MongoDB Connected
+2024-06-15T13:42:32.767Z info: Connected to Redis...
+2024-06-15T13:42:35.125Z info: Server started on port 9000
+2024-06-15T13:42:35.154Z info: MongoDB Connected
+2024-06-15T13:42:35.157Z info: Connected to Redis...
+2024-06-15T13:42:38.151Z info: Server started on port 9000
+2024-06-15T13:42:38.218Z info: MongoDB Connected
+2024-06-15T13:42:38.219Z info: Connected to Redis...
+2024-06-15T13:42:41.504Z info: Server started on port 9000
+2024-06-15T13:42:41.528Z info: MongoDB Connected
+2024-06-15T13:42:41.529Z info: Connected to Redis...
+2024-06-15T13:42:44.951Z info: Server started on port 9000
+2024-06-15T13:42:44.965Z info: MongoDB Connected
+2024-06-15T13:42:44.966Z info: Connected to Redis...
+2024-06-15T13:42:50.253Z info: Server started on port 9000
+2024-06-15T13:42:50.270Z info: MongoDB Connected
+2024-06-15T13:42:50.271Z info: Connected to Redis...
+2024-06-15T13:42:56.698Z info: Server started on port 9000
+2024-06-15T13:42:56.721Z info: MongoDB Connected
+2024-06-15T13:42:56.723Z info: Connected to Redis...
+2024-06-15T13:43:01.702Z info: Server started on port 9000
+2024-06-15T13:43:01.725Z info: MongoDB Connected
+2024-06-15T13:43:01.732Z info: Connected to Redis...
+2024-06-15T13:43:03.810Z info: Server started on port 9000
+2024-06-15T13:43:03.839Z info: MongoDB Connected
+2024-06-15T13:43:03.842Z info: Connected to Redis...
+2024-06-15T13:43:05.460Z info: Server started on port 9000
+2024-06-15T13:43:05.518Z info: MongoDB Connected
+2024-06-15T13:43:05.533Z info: Connected to Redis...
+2024-06-15T13:43:10.545Z info: Server started on port 9000
+2024-06-15T13:43:10.604Z info: MongoDB Connected
+2024-06-15T13:43:10.605Z info: Connected to Redis...
+2024-06-15T13:43:13.589Z info: Server started on port 9000
+2024-06-15T13:43:13.614Z info: MongoDB Connected
+2024-06-15T13:43:13.615Z info: Connected to Redis...
+2024-06-15T13:43:19.042Z info: Server started on port 9000
+2024-06-15T13:43:19.100Z info: MongoDB Connected
+2024-06-15T13:43:19.102Z info: Connected to Redis...
+2024-06-15T13:43:20.810Z info: Server started on port 9000
+2024-06-15T13:43:20.875Z info: MongoDB Connected
+2024-06-15T13:43:20.877Z info: Connected to Redis...
+2024-06-15T13:43:24.319Z info: Server started on port 9000
+2024-06-15T13:43:24.374Z info: MongoDB Connected
+2024-06-15T13:43:24.375Z info: Connected to Redis...
+2024-06-15T13:43:26.420Z info: Server started on port 9000
+2024-06-15T13:43:26.436Z info: MongoDB Connected
+2024-06-15T13:43:26.438Z info: Connected to Redis...
+2024-06-15T13:43:28.972Z info: Server started on port 9000
+2024-06-15T13:43:29.008Z info: MongoDB Connected
+2024-06-15T13:43:29.012Z info: Connected to Redis...
+2024-06-15T13:43:35.452Z info: Server started on port 9000
+2024-06-15T13:43:35.492Z info: MongoDB Connected
+2024-06-15T13:43:35.494Z info: Connected to Redis...
+2024-06-15T13:43:38.756Z info: Server started on port 9000
+2024-06-15T13:43:38.771Z info: MongoDB Connected
+2024-06-15T13:43:38.774Z info: Connected to Redis...
+2024-06-15T13:43:43.952Z info: Server started on port 9000
+2024-06-15T13:43:43.967Z info: MongoDB Connected
+2024-06-15T13:43:43.969Z info: Connected to Redis...
+2024-06-15T13:43:49.596Z info: Server started on port 9000
+2024-06-15T13:43:49.614Z info: MongoDB Connected
+2024-06-15T13:43:49.615Z info: Connected to Redis...
+2024-06-15T13:43:50.667Z info: Server started on port 9000
+2024-06-15T13:43:50.738Z info: MongoDB Connected
+2024-06-15T13:43:50.740Z info: Connected to Redis...
+2024-06-15T13:45:08.756Z info: Server started on port 9000
+2024-06-15T13:45:08.772Z info: MongoDB Connected
+2024-06-15T13:45:08.773Z info: Connected to Redis...
+2024-06-15T13:45:09.843Z info: Server started on port 9000
+2024-06-15T13:45:09.868Z info: MongoDB Connected
+2024-06-15T13:45:09.869Z info: Connected to Redis...
+2024-06-15T13:45:11.151Z info: Server started on port 9000
+2024-06-15T13:45:11.164Z info: MongoDB Connected
+2024-06-15T13:45:11.165Z info: Connected to Redis...
+2024-06-15T13:45:19.092Z info: Server started on port 9000
+2024-06-15T13:45:19.134Z info: MongoDB Connected
+2024-06-15T13:45:19.135Z info: Connected to Redis...
+2024-06-15T13:45:24.165Z info: Server started on port 9000
+2024-06-15T13:45:24.196Z info: MongoDB Connected
+2024-06-15T13:45:24.198Z info: Connected to Redis...
+2024-06-15T13:45:27.516Z info: Server started on port 9000
+2024-06-15T13:45:27.537Z info: MongoDB Connected
+2024-06-15T13:45:27.538Z info: Connected to Redis...
+2024-06-15T13:45:31.748Z info: Server started on port 9000
+2024-06-15T13:45:31.781Z info: MongoDB Connected
+2024-06-15T13:45:31.783Z info: Connected to Redis...
+2024-06-15T13:45:36.270Z info: Server started on port 9000
+2024-06-15T13:45:36.292Z info: MongoDB Connected
+2024-06-15T13:45:36.293Z info: Connected to Redis...
+2024-06-15T13:45:37.827Z info: Server started on port 9000
+2024-06-15T13:45:37.838Z info: MongoDB Connected
+2024-06-15T13:45:37.839Z info: Connected to Redis...
+2024-06-15T13:45:40.862Z info: Server started on port 9000
+2024-06-15T13:45:40.886Z info: MongoDB Connected
+2024-06-15T13:45:40.894Z info: Connected to Redis...
+2024-06-15T13:45:46.888Z info: Server started on port 9000
+2024-06-15T13:45:46.899Z info: MongoDB Connected
+2024-06-15T13:45:46.899Z info: Connected to Redis...
+2024-06-15T13:46:18.374Z info: Server started on port 9000
+2024-06-15T13:46:18.390Z info: MongoDB Connected
+2024-06-15T13:46:18.391Z info: Connected to Redis...
+2024-06-15T13:46:19.507Z info: Server started on port 9000
+2024-06-15T13:46:19.578Z info: MongoDB Connected
+2024-06-15T13:46:19.582Z info: Connected to Redis...
+2024-06-15T13:46:21.589Z info: Server started on port 9000
+2024-06-15T13:46:21.642Z info: MongoDB Connected
+2024-06-15T13:46:21.645Z info: Connected to Redis...
+2024-06-15T13:46:23.593Z info: Server started on port 9000
+2024-06-15T13:46:23.619Z info: MongoDB Connected
+2024-06-15T13:46:23.620Z info: Connected to Redis...
+2024-06-15T13:46:30.187Z info: Server started on port 9000
+2024-06-15T13:46:30.242Z info: MongoDB Connected
+2024-06-15T13:46:30.244Z info: Connected to Redis...
+2024-06-15T13:50:17.106Z info: Server started on port 9000
+2024-06-15T13:50:17.133Z info: MongoDB Connected
+2024-06-15T13:50:17.134Z info: Connected to Redis...
+2024-06-15T13:50:21.620Z info: Server started on port 9000
+2024-06-15T13:50:21.631Z info: MongoDB Connected
+2024-06-15T13:50:21.631Z info: Connected to Redis...
+2024-06-15T13:50:31.770Z info: Server started on port 9000
+2024-06-15T13:50:31.796Z info: MongoDB Connected
+2024-06-15T13:50:31.798Z info: Connected to Redis...
+2024-06-15T13:50:35.529Z info: Server started on port 9000
+2024-06-15T13:50:35.568Z info: MongoDB Connected
+2024-06-15T13:50:35.576Z info: Connected to Redis...
+2024-06-15T13:50:38.028Z info: Server started on port 9000
+2024-06-15T13:50:38.043Z info: MongoDB Connected
+2024-06-15T13:50:38.045Z info: Connected to Redis...
+2024-06-15T13:50:41.822Z info: Server started on port 9000
+2024-06-15T13:50:41.837Z info: MongoDB Connected
+2024-06-15T13:50:41.838Z info: Connected to Redis...
+2024-06-15T13:50:44.999Z info: Server started on port 9000
+2024-06-15T13:50:45.017Z info: MongoDB Connected
+2024-06-15T13:50:45.019Z info: Connected to Redis...
+2024-06-15T13:50:48.753Z info: Server started on port 9000
+2024-06-15T13:50:48.777Z info: MongoDB Connected
+2024-06-15T13:50:48.778Z info: Connected to Redis...
+2024-06-15T13:50:50.624Z info: Server started on port 9000
+2024-06-15T13:50:50.642Z info: MongoDB Connected
+2024-06-15T13:50:50.643Z info: Connected to Redis...
+2024-06-15T13:50:51.815Z info: Server started on port 9000
+2024-06-15T13:50:51.831Z info: MongoDB Connected
+2024-06-15T13:50:51.833Z info: Connected to Redis...
+2024-06-15T13:50:56.007Z info: Server started on port 9000
+2024-06-15T13:50:56.058Z info: MongoDB Connected
+2024-06-15T13:50:56.058Z info: Connected to Redis...
+2024-06-15T13:50:59.180Z info: Server started on port 9000
+2024-06-15T13:50:59.196Z info: MongoDB Connected
+2024-06-15T13:50:59.199Z info: Connected to Redis...
+2024-06-15T13:51:06.515Z info: Server started on port 9000
+2024-06-15T13:51:06.581Z info: MongoDB Connected
+2024-06-15T13:51:06.582Z info: Connected to Redis...
+2024-06-15T13:51:14.834Z info: Server started on port 9000
+2024-06-15T13:51:14.855Z info: MongoDB Connected
+2024-06-15T13:51:14.856Z info: Connected to Redis...
+2024-06-15T13:51:17.563Z info: Server started on port 9000
+2024-06-15T13:51:17.586Z info: MongoDB Connected
+2024-06-15T13:51:17.588Z info: Connected to Redis...
+2024-06-15T13:51:24.226Z info: Server started on port 9000
+2024-06-15T13:51:24.249Z info: MongoDB Connected
+2024-06-15T13:51:24.251Z info: Connected to Redis...
+2024-06-15T13:51:30.235Z info: Server started on port 9000
+2024-06-15T13:51:30.265Z info: MongoDB Connected
+2024-06-15T13:51:30.267Z info: Connected to Redis...
+2024-06-15T13:51:31.741Z info: Server started on port 9000
+2024-06-15T13:51:31.806Z info: MongoDB Connected
+2024-06-15T13:51:31.808Z info: Connected to Redis...
+2024-06-15T13:51:38.555Z info: Server started on port 9000
+2024-06-15T13:51:38.575Z info: MongoDB Connected
+2024-06-15T13:51:38.576Z info: Connected to Redis...
+2024-06-15T13:51:40.658Z info: Server started on port 9000
+2024-06-15T13:51:40.675Z info: MongoDB Connected
+2024-06-15T13:51:40.677Z info: Connected to Redis...
+2024-06-15T13:51:43.111Z info: Server started on port 9000
+2024-06-15T13:51:43.126Z info: MongoDB Connected
+2024-06-15T13:51:43.127Z info: Connected to Redis...
+2024-06-15T13:54:24.390Z info: Server started on port 9000
+2024-06-15T13:54:24.420Z info: MongoDB Connected
+2024-06-15T13:54:24.423Z info: Connected to Redis...
+2024-06-15T13:54:26.598Z info: Server started on port 9000
+2024-06-15T13:54:26.653Z info: MongoDB Connected
+2024-06-15T13:54:26.654Z info: Connected to Redis...
+2024-06-15T13:54:29.171Z info: Server started on port 9000
+2024-06-15T13:54:29.189Z info: MongoDB Connected
+2024-06-15T13:54:29.190Z info: Connected to Redis...
+2024-06-15T13:54:31.099Z info: Server started on port 9000
+2024-06-15T13:54:31.174Z info: MongoDB Connected
+2024-06-15T13:54:31.175Z info: Connected to Redis...
+2024-06-15T13:54:35.732Z info: Server started on port 9000
+2024-06-15T13:54:35.800Z info: MongoDB Connected
+2024-06-15T13:54:35.802Z info: Connected to Redis...
+2024-06-15T13:54:38.879Z info: Server started on port 9000
+2024-06-15T13:54:38.954Z info: MongoDB Connected
+2024-06-15T13:54:38.956Z info: Connected to Redis...
+2024-06-15T13:54:41.324Z info: Server started on port 9000
+2024-06-15T13:54:41.348Z info: MongoDB Connected
+2024-06-15T13:54:41.350Z info: Connected to Redis...
+2024-06-15T13:54:42.946Z info: Server started on port 9000
+2024-06-15T13:54:43.016Z info: MongoDB Connected
+2024-06-15T13:54:43.018Z info: Connected to Redis...
+2024-06-15T13:54:45.372Z info: Server started on port 9000
+2024-06-15T13:54:45.399Z info: MongoDB Connected
+2024-06-15T13:54:45.400Z info: Connected to Redis...
+2024-06-15T13:54:47.653Z info: Server started on port 9000
+2024-06-15T13:54:47.701Z info: MongoDB Connected
+2024-06-15T13:54:47.704Z info: Connected to Redis...
+2024-06-15T13:54:48.797Z info: Server started on port 9000
+2024-06-15T13:54:48.813Z info: MongoDB Connected
+2024-06-15T13:54:48.813Z info: Connected to Redis...
+2024-06-15T13:54:56.176Z info: Server started on port 9000
+2024-06-15T13:54:56.228Z info: MongoDB Connected
+2024-06-15T13:54:56.228Z info: Connected to Redis...
+2024-06-15T13:54:57.928Z info: Server started on port 9000
+2024-06-15T13:54:57.985Z info: MongoDB Connected
+2024-06-15T13:54:57.986Z info: Connected to Redis...
+2024-06-15T13:55:24.953Z info: Server started on port 9000
+2024-06-15T13:55:24.999Z info: MongoDB Connected
+2024-06-15T13:55:25.000Z info: Connected to Redis...
+2024-06-15T14:17:13.047Z info: Server started on port 9000
+2024-06-15T14:17:13.076Z info: MongoDB Connected
+2024-06-15T14:17:13.079Z info: Connected to Redis...
+2024-06-15T14:20:30.986Z info: Server started on port 9000
+2024-06-15T14:20:31.005Z info: MongoDB Connected
+2024-06-15T14:20:31.010Z info: Connected to Redis...
+2024-06-15T14:20:38.677Z info: Server started on port 9000
+2024-06-15T14:20:38.712Z info: MongoDB Connected
+2024-06-15T14:20:38.715Z info: Connected to Redis...
+2024-06-15T14:22:14.753Z info: Server started on port 9000
+2024-06-15T14:22:14.808Z info: MongoDB Connected
+2024-06-15T14:22:14.811Z info: Connected to Redis...
+2024-06-15T14:22:21.689Z info: Server started on port 9000
+2024-06-15T14:22:21.709Z info: MongoDB Connected
+2024-06-15T14:22:21.714Z info: Connected to Redis...
+2024-06-15T14:23:13.143Z info: Server started on port 9000
+2024-06-15T14:23:13.169Z info: MongoDB Connected
+2024-06-15T14:23:13.176Z info: Connected to Redis...
+2024-06-15T14:23:42.577Z info: Server started on port 9000
+2024-06-15T14:23:42.598Z info: MongoDB Connected
+2024-06-15T14:23:42.604Z info: Connected to Redis...
+2024-06-15T14:23:48.079Z info: Server started on port 9000
+2024-06-15T14:23:48.097Z info: MongoDB Connected
+2024-06-15T14:23:48.103Z info: Connected to Redis...
+2024-06-15T14:24:14.392Z info: Server started on port 9000
+2024-06-15T14:24:14.414Z info: MongoDB Connected
+2024-06-15T14:24:14.418Z info: Connected to Redis...
+2024-06-15T14:24:19.898Z info: Server started on port 9000
+2024-06-15T14:24:19.922Z info: MongoDB Connected
+2024-06-15T14:24:19.932Z info: Connected to Redis...
+2024-06-15T14:24:40.410Z info: Server started on port 9000
+2024-06-15T14:24:40.428Z info: MongoDB Connected
+2024-06-15T14:24:40.432Z info: Connected to Redis...
+2024-06-15T14:29:58.136Z info: POST
+2024-06-15T14:29:58.150Z error: error:  Incorrect Email
+2024-06-15T14:30:05.468Z info: POST
+2024-06-15T14:30:05.474Z error: error:  Incoorect Password, please provide valid credentials.
+2024-06-15T14:32:41.639Z info: Server started on port 9000
+2024-06-15T14:32:41.656Z info: MongoDB Connected
+2024-06-15T14:32:41.663Z info: Connected to Redis...
+2024-06-15T14:32:48.131Z info: Server started on port 9000
+2024-06-15T14:32:48.162Z info: MongoDB Connected
+2024-06-15T14:32:48.177Z info: Connected to Redis...
+2024-06-15T14:33:18.124Z info: Server started on port 9000
+2024-06-15T14:33:18.151Z info: MongoDB Connected
+2024-06-15T14:33:18.160Z info: Connected to Redis...
+2024-06-15T14:33:21.282Z info: Server started on port 9000
+2024-06-15T14:33:21.295Z info: MongoDB Connected
+2024-06-15T14:33:21.302Z info: Connected to Redis...
+2024-06-15T14:33:25.013Z info: Server started on port 9000
+2024-06-15T14:33:25.030Z info: MongoDB Connected
+2024-06-15T14:33:25.034Z info: Connected to Redis...
+2024-06-15T14:33:28.414Z info: Server started on port 9000
+2024-06-15T14:33:28.429Z info: MongoDB Connected
+2024-06-15T14:33:28.432Z info: Connected to Redis...
+2024-06-15T14:33:59.108Z info: Server started on port 9000
+2024-06-15T14:33:59.128Z info: MongoDB Connected
+2024-06-15T14:33:59.138Z info: Connected to Redis...
+2024-06-15T14:34:11.947Z info: Server started on port 9000
+2024-06-15T14:34:11.966Z info: MongoDB Connected
+2024-06-15T14:34:11.973Z info: Connected to Redis...
+2024-06-15T14:35:16.467Z info: POST
+2024-06-15T14:35:16.580Z error: Role is not defined
+2024-06-15T14:35:59.966Z info: Server started on port 9000
+2024-06-15T14:35:59.979Z info: MongoDB Connected
+2024-06-15T14:35:59.983Z info: Connected to Redis...
+2024-06-15T14:36:09.334Z info: Server started on port 9000
+2024-06-15T14:36:09.347Z info: MongoDB Connected
+2024-06-15T14:36:09.353Z info: Connected to Redis...
+2024-06-15T14:36:12.748Z info: Server started on port 9000
+2024-06-15T14:36:12.785Z info: MongoDB Connected
+2024-06-15T14:36:12.793Z info: Connected to Redis...
+2024-06-15T14:36:14.495Z info: Server started on port 9000
+2024-06-15T14:36:14.510Z info: MongoDB Connected
+2024-06-15T14:36:14.515Z info: Connected to Redis...
+2024-06-15T14:38:07.343Z info: Server started on port 9000
+2024-06-15T14:38:07.358Z info: MongoDB Connected
+2024-06-15T14:38:07.365Z info: Connected to Redis...
+2024-06-15T14:38:08.931Z info: Server started on port 9000
+2024-06-15T14:38:08.951Z info: MongoDB Connected
+2024-06-15T14:38:08.957Z info: Connected to Redis...
+2024-06-15T14:38:11.550Z info: Server started on port 9000
+2024-06-15T14:38:11.608Z info: MongoDB Connected
+2024-06-15T14:38:11.613Z info: Connected to Redis...
+2024-06-15T14:38:16.009Z info: Server started on port 9000
+2024-06-15T14:38:16.023Z info: MongoDB Connected
+2024-06-15T14:38:16.027Z info: Connected to Redis...
+2024-06-15T14:38:24.800Z info: Server started on port 9000
+2024-06-15T14:38:24.819Z info: MongoDB Connected
+2024-06-15T14:38:24.826Z info: Connected to Redis...
+2024-06-15T14:38:29.944Z info: POST
+2024-06-15T14:38:30.081Z error: Role is not defined
+2024-06-15T14:40:26.767Z info: Server started on port 9000
+2024-06-15T14:40:26.785Z info: MongoDB Connected
+2024-06-15T14:40:26.792Z info: Connected to Redis...
+2024-06-15T14:43:30.727Z info: Server started on port 9000
+2024-06-15T14:43:30.745Z info: MongoDB Connected
+2024-06-15T14:43:30.750Z info: Connected to Redis...
+2024-06-15T14:43:33.879Z info: POST
+2024-06-15T14:43:33.999Z error: Role is not defined
+2024-06-15T14:44:03.195Z info: Server started on port 9000
+2024-06-15T14:44:03.217Z info: MongoDB Connected
+2024-06-15T14:44:03.228Z info: Connected to Redis...
+2024-06-15T14:44:06.316Z info: Server started on port 9000
+2024-06-15T14:44:06.333Z info: MongoDB Connected
+2024-06-15T14:44:06.339Z info: Connected to Redis...
+2024-06-15T14:44:11.688Z info: POST
+2024-06-15T14:44:11.825Z error: Role is not defined
+2024-06-15T14:44:47.902Z info: Server started on port 9000
+2024-06-15T14:44:47.917Z info: MongoDB Connected
+2024-06-15T14:44:47.923Z info: Connected to Redis...
+2024-06-15T14:45:01.835Z info: POST
+2024-06-15T14:45:01.963Z error: AdminUser validation failed: Name: Path `Name` is required.
+2024-06-15T14:46:35.507Z info: Server started on port 9000
+2024-06-15T14:46:35.523Z info: MongoDB Connected
+2024-06-15T14:46:35.534Z info: Connected to Redis...
+2024-06-15T14:46:36.868Z info: Server started on port 9000
+2024-06-15T14:46:36.891Z info: MongoDB Connected
+2024-06-15T14:46:36.904Z info: Connected to Redis...
+2024-06-15T14:46:42.678Z info: Server started on port 9000
+2024-06-15T14:46:42.702Z info: MongoDB Connected
+2024-06-15T14:46:42.711Z info: Connected to Redis...
+2024-06-15T14:46:48.545Z info: Server started on port 9000
+2024-06-15T14:46:48.570Z info: MongoDB Connected
+2024-06-15T14:46:48.589Z info: Connected to Redis...
+2024-06-15T14:46:55.291Z info: Server started on port 9000
+2024-06-15T14:46:55.305Z info: MongoDB Connected
+2024-06-15T14:46:55.309Z info: Connected to Redis...
+2024-06-15T14:47:01.460Z info: POST
+2024-06-15T14:47:01.589Z error: AdminUser validation failed: Name: Path `Name` is required.
+2024-06-15T14:47:42.533Z info: Server started on port 9000
+2024-06-15T14:47:42.553Z info: MongoDB Connected
+2024-06-15T14:47:42.560Z info: Connected to Redis...
+2024-06-15T14:47:46.653Z info: Server started on port 9000
+2024-06-15T14:47:46.670Z info: MongoDB Connected
+2024-06-15T14:47:46.679Z info: Connected to Redis...
+2024-06-15T14:47:49.686Z info: Server started on port 9000
+2024-06-15T14:47:49.716Z info: MongoDB Connected
+2024-06-15T14:47:49.726Z info: Connected to Redis...
+2024-06-15T14:47:58.543Z info: Server started on port 9000
+2024-06-15T14:47:58.557Z info: MongoDB Connected
+2024-06-15T14:47:58.561Z info: Connected to Redis...
+2024-06-15T14:48:01.585Z info: POST
+2024-06-15T14:48:01.714Z info: Teacher Created!!
+2024-06-15T14:48:01.718Z info: Token Generated!!
+2024-06-15T14:48:30.637Z info: POST
+2024-06-15T14:48:30.735Z info: Admin Logged In!!!
+2024-06-15T14:48:30.737Z info: Token Created!!!
+2024-06-15T14:49:16.045Z info: Server started on port 9000
+2024-06-15T14:49:16.054Z info: Connected to Redis...
+2024-06-15T14:49:16.069Z info: MongoDB Connected
+2024-06-15T14:49:19.359Z info: Server started on port 9000
+2024-06-15T14:49:19.401Z info: MongoDB Connected
+2024-06-15T14:49:19.405Z info: Connected to Redis...
+2024-06-15T14:49:49.331Z info: POST
+2024-06-15T14:49:49.334Z error: Password is not strong enough.
+2024-06-15T14:49:56.116Z info: POST
+2024-06-15T14:49:56.245Z info: Teacher Created!!
+2024-06-15T14:50:28.244Z info: POST
+2024-06-15T14:50:28.248Z error: error:  Incorrect Email
+2024-06-15T14:53:00.239Z info: Server started on port 9000
+2024-06-15T14:53:00.258Z info: MongoDB Connected
+2024-06-15T14:53:00.274Z info: Connected to Redis...
+2024-06-15T14:53:04.075Z info: Server started on port 9000
+2024-06-15T14:53:04.094Z info: MongoDB Connected
+2024-06-15T14:53:04.104Z info: Connected to Redis...
+2024-06-15T14:53:08.482Z info: Server started on port 9000
+2024-06-15T14:53:08.500Z info: MongoDB Connected
+2024-06-15T14:53:08.505Z info: Connected to Redis...
+2024-06-15T14:53:16.007Z info: Server started on port 9000
+2024-06-15T14:53:16.030Z info: MongoDB Connected
+2024-06-15T14:53:16.039Z info: Connected to Redis...
+2024-06-15T14:53:19.368Z info: Server started on port 9000
+2024-06-15T14:53:19.380Z info: Connected to Redis...
+2024-06-15T14:53:19.393Z info: MongoDB Connected
+2024-06-15T14:53:23.032Z info: Server started on port 9000
+2024-06-15T14:53:23.068Z info: MongoDB Connected
+2024-06-15T14:53:23.077Z info: Connected to Redis...
+2024-06-15T14:53:25.055Z info: Server started on port 9000
+2024-06-15T14:53:25.074Z info: MongoDB Connected
+2024-06-15T14:53:25.079Z info: Connected to Redis...
+2024-06-15T14:53:26.688Z info: Server started on port 9000
+2024-06-15T14:53:26.703Z info: MongoDB Connected
+2024-06-15T14:53:26.713Z info: Connected to Redis...
+2024-06-15T14:53:33.821Z info: Server started on port 9000
+2024-06-15T14:53:33.832Z info: MongoDB Connected
+2024-06-15T14:53:33.837Z info: Connected to Redis...
+2024-06-15T14:53:39.988Z info: Server started on port 9000
+2024-06-15T14:53:40.004Z info: MongoDB Connected
+2024-06-15T14:53:40.008Z info: Connected to Redis...
+2024-06-15T14:53:49.037Z info: Server started on port 9000
+2024-06-15T14:53:49.054Z info: MongoDB Connected
+2024-06-15T14:53:49.058Z info: Connected to Redis...
+2024-06-15T14:54:05.311Z info: Server started on port 9000
+2024-06-15T14:54:05.333Z info: MongoDB Connected
+2024-06-15T14:54:05.344Z info: Connected to Redis...
+2024-06-15T14:54:08.798Z info: Server started on port 9000
+2024-06-15T14:54:08.813Z info: MongoDB Connected
+2024-06-15T14:54:08.819Z info: Connected to Redis...
+2024-06-15T14:54:30.377Z info: Server started on port 9000
+2024-06-15T14:54:30.419Z info: MongoDB Connected
+2024-06-15T14:54:30.425Z info: Connected to Redis...
+2024-06-15T14:54:32.566Z info: Server started on port 9000
+2024-06-15T14:54:32.583Z info: MongoDB Connected
+2024-06-15T14:54:32.590Z info: Connected to Redis...
+2024-06-15T14:54:42.657Z info: Server started on port 9000
+2024-06-15T14:54:42.672Z info: MongoDB Connected
+2024-06-15T14:54:42.675Z info: Connected to Redis...
+2024-06-15T14:54:45.532Z info: Server started on port 9000
+2024-06-15T14:54:45.552Z info: MongoDB Connected
+2024-06-15T14:54:45.557Z info: Connected to Redis...
+2024-06-15T14:54:46.706Z info: Server started on port 9000
+2024-06-15T14:54:46.725Z info: MongoDB Connected
+2024-06-15T14:54:46.734Z info: Connected to Redis...
+2024-06-15T14:56:00.944Z info: Server started on port 9000
+2024-06-15T14:56:00.976Z info: MongoDB Connected
+2024-06-15T14:56:00.980Z info: Connected to Redis...
+2024-06-15T14:56:08.621Z info: POST
+2024-06-15T14:56:08.629Z error: error:  Incorrect Email
+2024-06-15T14:56:47.109Z info: POST
+2024-06-15T14:56:47.117Z error: TeacherUser validation failed: ClassId: Path `ClassId` is required.
+2024-06-15T14:57:05.075Z info: Server started on port 9000
+2024-06-15T14:57:05.124Z info: MongoDB Connected
+2024-06-15T14:57:05.128Z info: Connected to Redis...
+2024-06-15T14:57:05.537Z info: POST
+2024-06-15T14:57:05.563Z info: Teacher Created!!
+2024-06-15T14:57:18.033Z info: POST
+2024-06-15T14:57:18.049Z error: error:  Incoorect Password, please provide valid credentials.
+2024-06-15T14:57:51.813Z info: Server started on port 9000
+2024-06-15T14:57:51.834Z info: MongoDB Connected
+2024-06-15T14:57:51.842Z info: Connected to Redis...
+2024-06-15T14:58:37.883Z info: Server started on port 9000
+2024-06-15T14:58:37.900Z info: MongoDB Connected
+2024-06-15T14:58:37.909Z info: Connected to Redis...
+2024-06-15T14:58:42.852Z info: Server started on port 9000
+2024-06-15T14:58:42.909Z info: MongoDB Connected
+2024-06-15T14:58:42.918Z info: Connected to Redis...
+2024-06-15T14:58:46.705Z info: Server started on port 9000
+2024-06-15T14:58:46.726Z info: MongoDB Connected
+2024-06-15T14:58:46.731Z info: Connected to Redis...
+2024-06-15T14:58:50.054Z info: Server started on port 9000
+2024-06-15T14:58:50.075Z info: MongoDB Connected
+2024-06-15T14:58:50.082Z info: Connected to Redis...
+2024-06-15T14:59:12.502Z info: Server started on port 9000
+2024-06-15T14:59:12.518Z info: MongoDB Connected
+2024-06-15T14:59:12.524Z info: Connected to Redis...
+2024-06-15T14:59:15.681Z info: Server started on port 9000
+2024-06-15T14:59:15.693Z info: MongoDB Connected
+2024-06-15T14:59:15.696Z info: Connected to Redis...
+2024-06-15T14:59:31.722Z info: Server started on port 9000
+2024-06-15T14:59:31.749Z info: MongoDB Connected
+2024-06-15T14:59:31.755Z info: Connected to Redis...
+2024-06-15T14:59:44.854Z info: POST
+2024-06-15T14:59:44.855Z error: bcrypt is not defined
+2024-06-15T15:00:00.183Z info: Server started on port 9000
+2024-06-15T15:00:00.208Z info: MongoDB Connected
+2024-06-15T15:00:00.218Z info: Connected to Redis...
+2024-06-15T15:00:01.227Z info: POST
+2024-06-15T15:00:01.385Z info: Teacher Created!!
+2024-06-15T15:00:18.523Z info: POST
+2024-06-15T15:00:18.626Z info: Teacher Logged In!!!
+2024-06-15T15:00:18.630Z info: Token Created!!!
+2024-06-15T15:06:47.067Z info: Server started on port 9000
+2024-06-15T15:06:47.084Z info: MongoDB Connected
+2024-06-15T15:06:47.097Z info: Connected to Redis...
+2024-06-15T22:36:46.388Z info: Server started on port 9000
+2024-06-15T22:36:46.403Z info: MongoDB Connected
+2024-06-15T22:39:58.457Z info: Server started on port 3000
+2024-06-15T22:39:58.471Z info: MongoDB Connected
+2024-06-15T22:40:02.415Z info: POST
+2024-06-15T22:40:02.416Z info: Dhyan
+2024-06-15T22:40:02.458Z info: GET
+2024-06-15T22:40:02.482Z info: GET
+2024-06-15T22:42:17.941Z info: GET
+2024-06-15T22:42:17.953Z info: GET
