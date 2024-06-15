@@ -1,12 +1,18 @@
 const express = require("express");
 const router = express.Router();
 
-const {createStudent, getStudents, getStudentById, updateStudentSubjectLevel, removeStudent} = require("../controllers/Student");
+const {
+  createStudent,
+  getStudents,
+  getStudentById,
+  updateStudentLevel,
+  removeStudent,
+} = require("../controllers/Student");
 
 router.post("/createStudent", createStudent);
 router.get("/getStudents", getStudents);
 router.get("/getStudentById/:studentId", getStudentById);
-router.put("/updateStudentSubLevel", updateStudentSubjectLevel);
+router.put("/updateStudentLevel", updateStudentLevel);
 router.delete("/deleteStudent/:studentId", removeStudent);
 
 module.exports = router;

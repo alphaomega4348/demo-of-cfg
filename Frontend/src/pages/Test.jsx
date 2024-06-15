@@ -1,8 +1,10 @@
 import { AudioRecorder } from "react-audio-voice-recorder";
 import axios from "axios";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 
 const Test = () => {
+    const {type} = useParams();
   const [targetText, setTargetText] = useState('');
 
   const addAudioElement = async (blob) => {
@@ -14,7 +16,6 @@ const Test = () => {
       const config = {
         headers: { "content-type": "multipart/form-data" },
       };
-
       const response = await axios.post("http://localhost:5000/transcribe", formData, config);
       console.log('Transcription:', response.data.text);
       console.log('Comparison Result:', response.data.comparison);
@@ -24,10 +25,11 @@ const Test = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-[92vh]">
+    <div className="flex flex-col gap-5 justify-center items-center h-[92vh]">
+        <div className="text-black text-3xl font-semibold">{type} Test</div>
       <div className="flex flex-col items-center justify-center bg-white p-4 rounded-lg shadow-md w-2/3">
         <textarea
-          className="mb-4 w-full p-2 border border-gray-300 rounded"
+          className="mb-4 w-full p-2 border border-gray-300 rounded h-[50vh]"
           placeholder="Enter the target text here..."
           value={targetText}
           onChange={(e) => setTargetText(e.target.value)}

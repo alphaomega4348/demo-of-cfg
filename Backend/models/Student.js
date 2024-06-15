@@ -11,8 +11,9 @@ const Student = new Schema(
       type: Number,
       required: true,
     },
-    subjectLevel: {
-      type: Array,
+    level: {
+      type: Number,
+      enum: [1, 2, 3],
     },
   },
   { timestamps: true }
