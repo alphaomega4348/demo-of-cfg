@@ -12,7 +12,6 @@ export default function StudentList() {
   }, []);
   const navigate = useNavigate();
   const handleChange = (event) => {
-    console.log(event.target.value);
     navigate(event.target.value);
   };
 
@@ -51,13 +50,14 @@ export default function StudentList() {
             <tr key={index}>
               <td>{student.standard}</td>
               <td>{student.name}</td>
-              <td>{student.level ? student.level : "No Record"}</td>
+              <td>{student.level}</td>
               <td>
                 <select onChange={handleChange}>
                   <option value="">Select Level</option>
-                  <option value="/about">About</option>
-                  <option value="/level2">Level 2</option>
-                  <option value="/level3">Level 3</option>
+                  <option value={`/test/Story/${student._id}`}>Story</option>
+                  <option value={`/test/Paragraph/${student._id}`}>Paragraph</option>
+                  <option value={`/test/Sentence/${student._id}`}>Sentence</option>
+                  <option value={`/test/Word/${student._id}`}>Word</option>
                 </select>
               </td>
             </tr>
