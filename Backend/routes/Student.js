@@ -6,7 +6,7 @@ const {createStudent, getStudents, getStudentById, updateStudentSubjectLevel, re
 router.post("/createStudent", createStudent);
 router.get("/getStudents", getStudents);
 router.get("/getStudentById/:studentId", getStudentById);
-router.put("/updateStudent/:studentId", updateStudentSubjectLevel);
+router.put("/updateStudentSubLevel", updateStudentSubjectLevel);
 router.delete("/deleteStudent/:studentId", removeStudent);
 
 module.exports = router;

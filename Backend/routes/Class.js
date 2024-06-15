@@ -6,6 +6,6 @@ const { createClass, getClasses, getClassById, deleteStudentFromClass } = requir
 router.post("/createClass", createClass);
 router.get("/getClasses", getClasses);
 router.get("/getClassById/:classId", getClassById);
-router.delete("/deleteClass/:classId", deleteStudentFromClass);
+router.delete("/deleteStudentFromClass", deleteStudentFromClass);
 
 module.exports = router;
