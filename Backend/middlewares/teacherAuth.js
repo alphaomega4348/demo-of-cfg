@@ -1,23 +1,23 @@
 const jwt = require("jsonwebtoken");
-const Users = require("../models/Users");
+const Teacher = require("../models/Teacher");
 const JWT_SECRET = process.env.JWT_SECRET;
 
-const userAuth = async (req, res, next) => {
+const teacherAuth = async (req, res, next) => {
   const token = req.header("token");
   if (!token) {
     res.status(401).send({ error: "Invalid Token" });
   }
   try {
     const data = jwt.verify(token, JWT_SECRET);
-    const user = await Users.findById(data.user._id);
-    if (!user) {
+    const teacher = await Teacher.findById(data.teacher._id);
+    if (!teacher) {
       return res.status(401).json({ error: "Invalid Token" });
     }
-    req.user = data.user;
+    req.teacher = data.teacher;
     next();
   } catch (error) {
     res.status(401).json({ error: "Invalid Token" });
   }
 };
 
-module.exports = userAuth;
+module.exports = teacherAuth;
