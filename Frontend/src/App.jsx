@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Test from "./pages/Test"
+import Test from "./pages/Test";
 import Home from "./pages/Home";
 import CreateStudent from "./pages/CreateStudent";
 import "react-toastify/dist/ReactToastify.css";
