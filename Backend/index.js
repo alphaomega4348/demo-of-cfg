@@ -13,6 +13,7 @@ const adminRoutes = require('./routes/Admin')
 const teacherRoutes = require('./routes/Teacher')
 
 const app = express();
+app.use(cors())
 app.use(express.json())
 app.use(helmet())
 app.use(morgan('dev'))
