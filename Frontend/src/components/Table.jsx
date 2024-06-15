@@ -39,7 +39,7 @@ export default function Table() {
   return (
     <div>
     <div class="sm:overflow-hidden">
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg bg-pink-500 w-full h-[8vh]">
     <div class="container-fluid">
         <span class="navbar-brand mb-0 h1">Vowels of the People Association</span>
         <button type="button" class="btn btn-secondary">Home</button>
