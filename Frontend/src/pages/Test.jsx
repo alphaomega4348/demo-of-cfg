@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 const Test = () => {
   const { type, id } = useParams();
+  console.log(type, id);
   const [targetText, setTargetText] = useState("");
   const navigate = useNavigate();
   const addAudioElement = async (blob) => {
@@ -15,24 +16,24 @@ const Test = () => {
       const config = {
         headers: { "content-type": "multipart/form-data" },
       };
-      const response = await axios.post(
-        "http://localhost:5000/transcribe",
-        formData,
-        config
-      );
+        const response = await axios.post(
+          "http://localhost:5000/transcribe",
+          formData,
+          config
+        )
       if (response.data.comparison == "Pass") {
-        toast.success(`${type} Test Passed`);
-        await axios.post(
-          `http://localhost:5000/api/student/updateStudentLevel`,
-          { studentId: id, level: type }
-        );
+          await axios.put(`http://localhost:3000/api/student/updateStudentLevel`, {
+            studentId: id,
+            level: type,
+          });
+          toast.success(`${type} Test Passed`);
         navigate(`/studentList`);
       } else {
         toast.error(`${type} Test Failed`);
         if (type === "Story") navigate(`/test/Paragraph/${id}`);
         else if (type === "Paragraph") navigate(`/test/Sentence/${id}`);
         else if (type === "Sentence") navigate(`/test/Word/${id}`);
-        else navigate(`/studentList`);
+        else navigate(`/studentList/${id}`);
       }
     } catch (error) {
       console.error("Error uploading audio to server:", error);
