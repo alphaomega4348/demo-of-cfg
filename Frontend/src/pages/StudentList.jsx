@@ -79,7 +79,7 @@ export default function StudentList() {
                     <option value={`/test/Paragraph/${id}/${student._id}`}>
                       Paragraph
                     </option>
-                    <option value={`/test/Sentence/${id}${student._id}`}>
+                    <option value={`/test/Sentence/${id}/${student._id}`}>
                       Sentence
                     </option>
                     <option value={`/test/Word/${id}/${student._id}`}>

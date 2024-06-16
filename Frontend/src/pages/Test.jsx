@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 const Test = () => {
-  const { type,chatId ,id } = useParams();
+  const { type,classId ,id } = useParams();
   console.log(type, id);
   const [targetText, setTargetText] = useState("");
   const navigate = useNavigate();
@@ -27,7 +27,7 @@ const Test = () => {
             level: type,
           });
           toast.success(`${type} Test Passed`);
-        navigate(`/studentList/${chatId}`);
+        navigate(`/studentList/${classId}`);
       } else {
         toast.error(`${type} Test Failed`);
         if (type === "Story") navigate(`/test/Paragraph/${id}`);
