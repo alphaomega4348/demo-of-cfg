@@ -4,7 +4,7 @@ const router = express.Router();
 const { getStudentData } = require("../controllers/pastData");
 
 
-router.get("/getPastData", getStudentData);
+router.get("/getPastData/:id", getStudentData);
 
 
 module.exports = router;
