@@ -87,7 +87,7 @@ const updateStudentLevel = async (req, res) => {
       { $set: { level } },
       { new: true }
     );
-    await PastData.findByIdAndUpdate(studentId, {
+    await PastData.findOneAndUpdate({studentId}, {
       $push: { pastLevel: level },
     }, { new: true });
     res
