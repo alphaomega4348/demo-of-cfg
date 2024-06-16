@@ -73,14 +73,18 @@ export default function StudentList() {
                 <td>
                   <select onChange={handleChange}>
                     <option value="">Select Level</option>
-                    <option value={`/test/Story/${id}/${student._id}`}>Story</option>
+                    <option value={`/test/Story/${id}/${student._id}`}>
+                      Story
+                    </option>
                     <option value={`/test/Paragraph/${id}/${student._id}`}>
                       Paragraph
                     </option>
-                    <option value={`/test/Sentence/${student._id}`}>
+                    <option value={`/test/Sentence/${id}${student._id}`}>
                       Sentence
                     </option>
-                    <option value={`/test/Word/${student._id}`}>Word</option>
+                    <option value={`/test/Word/${id}/${student._id}`}>
+                      Word
+                    </option>
                   </select>
                 </td>
               </tr>
