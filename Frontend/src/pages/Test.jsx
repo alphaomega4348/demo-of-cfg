@@ -24,7 +24,7 @@ const Test = () => {
         toast.success(`${type} Test Passed`);
         await axios.post(
           `http://localhost:5000/api/student/updateStudentLevel`,
-          {studentId: id, level: type},
+          { studentId: id, level: type }
         );
         navigate(`/studentList`);
       } else {
@@ -41,6 +41,22 @@ const Test = () => {
 
   return (
     <div className="flex flex-col gap-5 justify-center items-center h-[92vh]">
+      <svg
+        onClick={() => navigate(`/studentList/${id}`)}
+        class="h-12 w-12 text-purple-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        {" "}
+        <path stroke="none" d="M0 0h24v24H0z" />{" "}
+        <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" />
+      </svg>
       <div className="text-black text-3xl font-semibold">{type} Test</div>
       <div className="flex flex-col items-center justify-center bg-white p-4 rounded-lg shadow-md w-2/3">
         <textarea

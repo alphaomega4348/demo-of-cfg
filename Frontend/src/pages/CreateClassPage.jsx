@@ -62,8 +62,8 @@ const CreateClassPage = () => {
       }}
     >
       <h1
+        className="text-purple-500"
         style={{
-          color: "#6a097d",
           fontFamily: "Arial, sans-serif",
           fontSize: "32px",
           fontWeight: "bold",
@@ -87,9 +87,9 @@ const CreateClassPage = () => {
         }}
       />
       <button
+        className="bg-purple-500"
         onClick={createClass}
         style={{
-          backgroundColor: "#6a097d",
           color: "white",
           border: "none",
           borderRadius: "20px",
@@ -103,16 +103,17 @@ const CreateClassPage = () => {
       >
         Create Class
       </button>
-
-      {classes.length > 0 ? (
-        classes.map((cls, index) => (
-          <div onClick={() => handleClass(cls._id)}>
-            <Card key={index} className={cls.name} />
-          </div>
-        ))
-      ) : (
-        <p>No classes found</p>
-      )}
+      <div className="flex justify-center items-center flex-wrap">
+        {classes.length > 0 ? (
+          classes.map((cls, index) => (
+            <div onClick={() => handleClass(cls._id)}>
+              <Card key={index} cName={cls.name} />
+            </div>
+          ))
+        ) : (
+          <p>No classes found</p>
+        )}
+      </div>
     </div>
   );
 };

@@ -10,8 +10,6 @@ const fetchUsers = async(url) =>{
     }
 }
 
-
-
 export default function Login() {
     const[email,setemail] =useState("");
     const[password,setpassword] =useState("");
