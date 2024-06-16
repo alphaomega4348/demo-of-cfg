@@ -27,7 +27,7 @@ const Test = () => {
             level: type,
           });
           toast.success(`${type} Test Passed`);
-        navigate(`/studentList`);
+        navigate(`/studentList/${id}`);
       } else {
         toast.error(`${type} Test Failed`);
         if (type === "Story") navigate(`/test/Paragraph/${id}`);
