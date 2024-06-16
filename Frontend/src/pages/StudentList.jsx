@@ -73,8 +73,8 @@ export default function StudentList() {
                 <td>
                   <select onChange={handleChange}>
                     <option value="">Select Level</option>
-                    <option value={`/test/Story/${student._id}`}>Story</option>
-                    <option value={`/test/Paragraph/${student._id}`}>
+                    <option value={`/test/Story/${id}/${student._id}`}>Story</option>
+                    <option value={`/test/Paragraph/${id}/${student._id}`}>
                       Paragraph
                     </option>
                     <option value={`/test/Sentence/${student._id}`}>

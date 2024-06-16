@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 const Test = () => {
-  const { type, id } = useParams();
+  const { type,chatId ,id } = useParams();
   console.log(type, id);
   const [targetText, setTargetText] = useState("");
   const navigate = useNavigate();
@@ -27,13 +27,13 @@ const Test = () => {
             level: type,
           });
           toast.success(`${type} Test Passed`);
-        navigate(`/studentList/${id}`);
+        navigate(`/studentList/${chatId}`);
       } else {
         toast.error(`${type} Test Failed`);
         if (type === "Story") navigate(`/test/Paragraph/${id}`);
         else if (type === "Paragraph") navigate(`/test/Sentence/${id}`);
         else if (type === "Sentence") navigate(`/test/Word/${id}`);
-        else navigate(`/studentList/${id}`);
+        else navigate(`/studentList/${chatId}`);
       }
     } catch (error) {
       console.error("Error uploading audio to server:", error);
