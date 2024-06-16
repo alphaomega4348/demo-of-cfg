@@ -23,6 +23,10 @@ export default function StudentList() {
     navigate(`/createStudent/${id}`);
   };
 
+  const handleAvg = async () => {
+    // const {data} = await axios.get('')
+  }
+
   const GoToData = async (sid) => {
     try {
       const { data } = await axios.get(`http://localhost:3000/api/pastData/getPastData/${sid}`);
@@ -121,6 +125,10 @@ export default function StudentList() {
         <Modal show={isModalOpen} onClose={closeModal}>
           <LineStudent data={levelData} />
         </Modal>
+        <div className="flex justify-center items-center">
+        <button onClick={handleAvg} classname="rounded-xl text-black bg-purple-500 w-[5rem]">Class Average</button>
+        <button classname="rounded-xl text-black bg-purple-500 w-[5rem]">Class Pie</button>
+        </div>
       </div>
     </div>
   );

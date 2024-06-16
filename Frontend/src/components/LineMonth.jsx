@@ -1,28 +1,26 @@
 import React from "react";
 import { Chart } from "react-google-charts";
 
-export const data = [
-  ["Task", "Hours per Day"],
-  ["Work", 11],
-  ["Eat", 2],
-  ["Commute", 2],
-  ["Watch TV", 2],
-  ["Sleep", 7],
-];
-
 export const options = {
-  title: "My Daily Activities",
+  title: "Student's Performance",
   is3D: true,
 };
+export function LineMonth({ data }) {
+    
+  const chartData = [
+    ["index", "value"],
+    ...data.map((value, index) => [index + 1, value]),
+  ];
 
-export function LineMonth() {
   return (
     <Chart
       chartType="LineChart"
-      data={data}
+      data={chartData}
       options={options}
       width={"100%"}
       height={"400px"}
     />
   );
 }
+
+
