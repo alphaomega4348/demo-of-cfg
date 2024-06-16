@@ -6,13 +6,14 @@ import Modal from "../components/Modal";
 
 export default function StudentList() {
   const { id } = useParams();
-
   const [students, setStudents] = useState([]);
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [levelData, setLevelData] = useState([]);
+  const navigate = useNavigate();
+
   useEffect(() => {
     fetchUsers();
   }, []);
-
-  const navigate = useNavigate();
 
   const handleChange = (event) => {
     navigate(event.target.value);
@@ -23,21 +24,17 @@ export default function StudentList() {
   };
 
   const GoToData = async (sid) => {
-
     try {
-      const {data} = await axios.get(`http://localhost:3000/api/pastData/getPastData/${sid}`);
+      const { data } = await axios.get(`http://localhost:3000/api/pastData/getPastData/${sid}`);
       console.log(sid);
-      setLevelData(data.data)
-      console.log(data.data)
-      setModalOpen(true)
+      setLevelData(data.data);
+      console.log(data.data);
+      setModalOpen(true);
     } catch (error) {
       console.error(error);
     }
   };
 
-  const [isModalOpen, setModalOpen] = useState(false);
-
-  const openModal = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
 
   const fetchUsers = async () => {
@@ -50,8 +47,6 @@ export default function StudentList() {
       console.error(e);
     }
   };
-
-  const [levelData , setLevelData] = useState([])
 
   return (
     <div className="flex flex-col justify-center items-center pt-10">
@@ -108,7 +103,7 @@ export default function StudentList() {
                   </td>
                   <td>
                     <button
-                      onClick={()=>GoToData(student._id)}
+                      onClick={() => GoToData(student._id)}
                       className="rounded-xl bg-purple-500 text-white w-[10rem] h-[2rem]"
                     >
                       Show Data
@@ -118,14 +113,14 @@ export default function StudentList() {
               ))
             ) : (
               <tr>
-                <td colSpan="5" className="text-center text-3xl text-black mb-5">No students found</td>
+                <td colSpan="5" className="text-center">No students found</td>
               </tr>
             )}
           </tbody>
         </table>
         <Modal show={isModalOpen} onClose={closeModal}>
-            <LineStudent data={levelData}/>
-      </Modal>
+          <LineStudent data={levelData} />
+        </Modal>
       </div>
     </div>
   );

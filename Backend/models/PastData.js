@@ -9,8 +9,7 @@ const PastData = new Schema(
       required: true,
     },
     pastLevels: {
-      type: [String],
-      enum: ["No Record", "Fail", "Word", "Sentence", "Paragraph", "Story"],
+      type: Array,
       default: "No Record",
     },
   },

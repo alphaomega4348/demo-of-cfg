@@ -88,7 +88,8 @@ const updateStudentLevel = async (req, res) => {
       { new: true }
     );
     await PastData.findOneAndUpdate({studentId}, {
-      $push: { pastLevel: level },
+      $push: { pastLevel: {level,timeStamp: new Date()} },
+
     }, { new: true });
     res
       .status(200)
