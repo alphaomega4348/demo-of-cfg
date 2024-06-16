@@ -23,3 +23,7 @@
 {"level":"info","message":{"duration":0.007,"method":"GET","route":"/getStudents","status_code":304},"timestamp":"2024-06-15T22:40:02.489Z"}
 {"level":"info","message":{"duration":0.009,"method":"GET","route":"/getStudents","status_code":304},"timestamp":"2024-06-15T22:42:17.950Z"}
 {"level":"info","message":{"duration":0.011,"method":"GET","route":"/getStudents","status_code":304},"timestamp":"2024-06-15T22:42:17.964Z"}
+{"level":"info","message":{"duration":0.051,"method":"GET","route":"/getClassRooms","status_code":200},"timestamp":"2024-06-16T01:51:48.622Z"}
+{"level":"info","message":{"duration":0.029,"method":"GET","route":"/getClassRooms","status_code":304},"timestamp":"2024-06-16T01:51:48.654Z"}
+{"level":"info","message":{"duration":0.157,"method":"GET","route":"/getStudentsFromClassRoom/666e21c139607181dc6bf82b","status_code":200},"timestamp":"2024-06-16T01:51:50.216Z"}
+{"level":"info","message":{"duration":0.047,"method":"GET","route":"/getStudentsFromClassRoom/666e21c139607181dc6bf82b","status_code":304},"timestamp":"2024-06-16T01:51:50.270Z"}
