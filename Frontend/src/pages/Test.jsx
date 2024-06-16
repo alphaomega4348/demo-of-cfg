@@ -30,9 +30,9 @@ const Test = () => {
         navigate(`/studentList/${classId}`);
       } else {
         toast.error(`${type} Test Failed`);
-        if (type === "Story") navigate(`/test/Paragraph/${id}`);
-        else if (type === "Paragraph") navigate(`/test/Sentence/${id}`);
-        else if (type === "Sentence") navigate(`/test/Word/${id}`);
+        if (type === "Story") navigate(`/test/Paragraph/${classId}/${id}`);
+        else if (type === "Paragraph") navigate(`/test/Sentence/${classId}/${id}`);
+        else if (type === "Sentence") navigate(`/test/Word/${classId}/${id}`);
         else navigate(`/studentList/${chatId}`);
       }
     } catch (error) {
