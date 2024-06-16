@@ -72,11 +72,32 @@ const getStudentsInClassRoom = async (req, res) => {
 
 }
 
+
+const classRoomLevelFreq = async (req,res) => {
+    try {
+      const {classId} = req.params;
+      const classRoom = await ClassRoom.findById(classId);
+      const students = await Student.find({_id: {$in: classRoom.StudentId}});
+      const levelFreq = {};
+      students.forEach(student => {
+        if(levelFreq[student.level]){
+          levelFreq[student.level] += 1;
+        } else {
+          levelFreq[student.level] = 1;
+        }
+      });
+      res.status(200).json({success: true, levelFreq});
+    } catch (error) {
+      res.status(500).json({success: false, error: "Internal Server Error!"});
+    }
+}
+
 module.exports = {
   addStudentToClassRoom,
   createClassRoom,
+  classRoomLevelFreq,
   getClassRooms,
   deleteStudentFromClassRoom,
   getClassRoomById,
   getStudentsInClassRoom,
-};
+}

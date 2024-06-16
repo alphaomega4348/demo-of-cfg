@@ -1,5 +1,6 @@
 const logger = require("../logger/Logger");
 const ClassRoom = require("../models/ClassRoom");
+const PastData = require("../models/PastData");
 const Student = require("../models/Student");
 
 const createStudent = async (req, res) => {
@@ -81,11 +82,14 @@ const updateStudentLevel = async (req, res) => {
         .status(400)
         .json({ success: false, error: "Please provide studentId and level" });
     }
-    const student = await Student.findByIdAndUpdate(
+    await Student.findByIdAndUpdate(
       studentId,
       { $set: { level } },
       { new: true }
     );
+    await PastData.findByIdAndUpdate(studentId, {
+      $push: { pastLevel: level },
+    }, { new: true });
     res
       .status(200)
       .json({ success: true, message: "Student level updated successfully" });
@@ -93,6 +97,7 @@ const updateStudentLevel = async (req, res) => {
     res.status(500).json({ success: false, error: "Internal Server Error!" });
   }
 };
+
 
 module.exports = {
   createStudent,
